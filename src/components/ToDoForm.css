@@ -1,0 +1,57 @@
+.todoform {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.formHeader {
+  /* flex: 10%; */
+  background-color: rgba(88, 88, 199, 0.622);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.formHeader .inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+.formHeader input {
+  width: 425px;
+  height: 50px;
+  border: none;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+}
+.formHeader button {
+  width: 85px;
+  height: 108px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  padding-left: 10px;
+  cursor: pointer;
+  border: 1px solid grey;
+  font-size: 25px;
+  font-weight: 500;
+}
+.todoList {
+  flex: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* padding-top: 50px; */
+  flex-direction: column;
+  background-color: rgba(88, 88, 199, 0.422);
+}
+.todoList h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 3em;
+  margin: 15px;
+}
