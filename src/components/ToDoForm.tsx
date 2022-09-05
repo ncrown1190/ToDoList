@@ -42,19 +42,19 @@ export default function ToDoForm() {
             value={task}
             onChange={handleChange}
           />
-          <input
+          {/* <input
             type="number"
             placeholder="Deadline (in Days)..."
             name="deadline"
             value={deadline}
             onChange={handleChange}
-          />
+          /> */}
         </div>
-        <button onClick={addTask}>Add Task</button>
+        <button onClick={addTask}>Add</button>
       </div>
 
       <div className="todoList">
-        <h1>My Task List</h1>
+        <h1>My Todo List</h1>
         {todoList.map((task: Task, key: number) => {
           return <ToDoList key={key} task={task} completeTask={completeTask} />;
         })}

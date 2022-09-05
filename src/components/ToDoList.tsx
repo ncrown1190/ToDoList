@@ -12,7 +12,7 @@ export default function ToDoList({ task, completeTask }: Props) {
     <div className="list">
       <div className="content">
         <span className="child1">{task.taskName}</span>
-        <span className="child2">{task.deadline}</span>
+        {/* <span className="child2">{task.deadline}</span> */}
       </div>
       <button
         onClick={() => {

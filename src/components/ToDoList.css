@@ -1,9 +1,9 @@
 .list {
-  width: 500px;
+  width: 650px;
   height: 70px;
   display: flex;
   color: white;
-  margin: 10px;
+  /* margin: 10px; */
 }
 .list .content {
   flex: 90%;
@@ -15,17 +15,20 @@
 
 .list .content span {
   display: grid;
-  place-items: center;
+  /* place-items: center; */
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
   border: 2px solid white;
   width: 100%;
-  height: 100%;
+  height: 66px;
   font-size: 24px;
   border-right: none;
   background-color: rgba(88, 88, 199, 0.822);
 }
 
 .list button {
-  flex: 10%;
+  flex: 15%;
   height: 100%;
   border: none;
   background-color: tomato;
@@ -35,9 +38,9 @@
   cursor: pointer;
   border: 2px solid white;
 }
-.list .content span.child1 {
+/* .list .content span.child1 {
   width: 75%;
-}
-.list .content span.child2 {
+} */
+/* .list .content span.child2 {
   width: 25%;
-}
+} */
