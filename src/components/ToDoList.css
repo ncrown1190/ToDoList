@@ -1,10 +1,17 @@
 .list {
-  width: 650px;
+  width: 340px;
   height: 70px;
   display: flex;
   color: white;
   /* margin: 10px; */
 }
+/* .list {
+  width: 650px;
+  height: 70px;
+  display: flex;
+  color: white;  
+} */
+
 .list .content {
   flex: 90%;
   height: 100%;
@@ -44,3 +51,11 @@
 /* .list .content span.child2 {
   width: 25%;
 } */
+@media only screen and (min-width: 768px) {
+  .list {
+    width: 650px;
+    height: 70px;
+    display: flex;
+    color: white;
+  }
+}
